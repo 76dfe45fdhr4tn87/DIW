@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Ejercicio posicionamiento float</title>
+    <style type="text/css">
+        div#paginacion {
+            background-color: rgb(196, 196, 196);
+            width: 100%;
+            height: 40px;
+            border: 1px solid grey;
+        }
+        
+        .derecha {
+            width: 100px;
+            height: 100px;
+            margin: 10px 0px 10px 0px;
+            float: right;
+        }
+        
+        .izquierda {
+            width: 100px;
+            height: 100px;
+            margin: 10px 0px 10px 10px;
+            float: left;
+        }
+        
+        div.clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="paginacion">
+        <span class="izquierda">&laquo; Anterior</span> <span class="derecha">Siguiente &raquo;</span>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>
