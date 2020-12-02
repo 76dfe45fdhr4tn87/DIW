@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(63, 63, 63);
+}
+
+header {
+    background-color: grey;
+    box-shadow: 5px 5px 10px 5px black
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
+
+.datos {
+    padding-right: 8%;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px 20px;
+    box-shadow: inset -5px -5px 30px 5px black, 5px 5px 30px 5px gray;
+    margin-left: 5%;
+}
+
+.form {
+    padding-right: 8%;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px 20px;
+    box-shadow: inset -5px -5px 30px 5px black, 5px 5px 30px 5px gray;
+}
+
+.form>ul>li {
+    color: blue;
+}
+
+.exp {
+    padding-right: 8%;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px 20px;
+    box-shadow: inset -5px -5px 30px 5px black, 5px 5px 30px 5px gray;
+    margin-right: 5%;
+}
+
+.exp>ul>li {
+    color: blue;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    border-radius: 50px 20px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    border-radius: 50px 20px;
+}
+
+.caja2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja2 img {
+    margin: 8em;
+    padding: 1em;
+}
+
+.img1 {
+    transform: rotate(-45deg);
+}
+
+.img2 {
+    transform: skew(40deg, 20deg);
+}
+
+.img3 {
+    transform: scaleX(1.5) scaleY(.7);
+}
