@@ -1,10 +1,21 @@
-/* Add a black background color to the top navigation */
+.encabezado {
+    background-image: url("https://images.jumpseller.com/store/toyvan/category/364615/Banner-Arcade-ok.jpg.jpg?0");
+}
+.encabezado img {
+    margin-top: 4px;
+    border-radius: 6px;
+}
+h1 {
+    font-family: "Arial Black";
+    color: #f2f2f2;
+    margin-bottom: 0em;
+    text-shadow: 1px 1px 2px black;
+}
 .topnav {
-    background-color: #333;
+    background-color: #0E163A;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -14,14 +25,30 @@
     font-size: 17px;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ABA48A;
     color: black;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #616575;
     color: white;
+  }
+  .topnav-right {
+    float: right;
+  }
+
+  .cuerpoInicio {
+      background-color: #616575;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0px solid black;
+      box-shadow: 5px 10px #0E163A;
+      width: 650px;
+      height: 450px;
+  }
+
+  .cuerpoInicio img {
+    border-radius: 6px;
   }
